@@ -1,0 +1,46 @@
+.home-container{
+    background: #442a2a;
+}
+.home-button-list{
+    padding: 200px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button-list .button{
+    margin: 1rem;
+}
+
+.button button{
+    width: 250px;
+    height: 150px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d61313;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+.button button:hover{
+    color: rgb(233, 218, 218);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+.home-button-list{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+ .button button{
+    width: 150px;
+    height: 90px;
+    font-size: 15px;
+    }
+}

@@ -1,0 +1,21 @@
+.bundle-list{
+    padding: 50px 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #442a2a;
+}
+
+.bundle-card{
+    margin: 12px;
+    text-align: center;
+}
+.bundle-card img{
+    margin-bottom: 10px;
+}
+.bundle-card p{
+    font-weight: bold;
+    color: #796969;
+}
