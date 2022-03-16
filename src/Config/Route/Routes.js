@@ -6,6 +6,7 @@ import Tiers from '../../Components/Tiers/Tiers';
 import Details from '../../Components/Agents/Details';
 import Bundles from '../../Components/Bundles/Bundles';
 import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
 
 function Routes() {
   return (
@@ -29,6 +30,7 @@ function Routes() {
             <Bundles />
             </Route>
         </Switch>
+      <Footer />
     </BrowserRouter>
   </div>
   )

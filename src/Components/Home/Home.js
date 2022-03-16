@@ -17,9 +17,6 @@ function Home() {
         <Link to='/bundles' className='button'>
         <button>BUNDLES PAGE</button>
         </Link>
-        <Link to='/bundles' className='button'>
-        <button>BUNDLES PAGE</button>
-        </Link>
         </div>
     </div>
   )
