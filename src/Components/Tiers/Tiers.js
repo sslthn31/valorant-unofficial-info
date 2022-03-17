@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import './Tiers.css';
 
 function Tiers() {
   const [tiersData, setTiersData] = useState([]);

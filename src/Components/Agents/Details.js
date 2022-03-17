@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {withRouter} from 'react-router-dom';
 import axios from 'axios';
-import './detailStyle.css';
+
 
 function Details(props) {
   const [agentsDetails, setAgentsDetails] = useState([])

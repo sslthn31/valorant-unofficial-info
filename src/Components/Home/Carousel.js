@@ -1,6 +1,6 @@
 import React from 'react'
 import homeCarousel from '../../Videos/home-carousel.mp4';
-import './Carousel.css';
+
 
 function Carousel() {
   return (
